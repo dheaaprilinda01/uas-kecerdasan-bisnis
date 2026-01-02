@@ -2,6 +2,11 @@
 
 Proyek ini membangun Data Lake menggunakan **Docker**, **Apache Airflow**, dan **Minio**.
 
+# MATA KULIAH KECERDASAN BISNIS
+1. Mario Franca Wijaya (2210817310009)
+2. Dhea Aprilinda Utami (2210817220019)
+
+
 ## Komponen
 1. **Minio**: Sebagai Storage Layer (Data Lake).
 2. **Apache Airflow**: Sebagai Orchestrator untuk proses ELT dan ETL.
