@@ -2,7 +2,7 @@
 
 Proyek ini membangun Data Lake menggunakan **Docker**, **Apache Airflow**, dan **Minio**.
 
-# MATA KULIAH KECERDASAN BISNIS
+# Mata Kuliah KECERDASAN BISNIS
 1. Mario Franca Wijaya (2210817310009)
 2. Dhea Aprilinda Utami (2210817220019)
 
