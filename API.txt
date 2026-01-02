@@ -1,0 +1,1 @@
+https://api.weatherapi.com/v1/current.json?key=3f81dfc53f1b4295aca75620252412&q=Banjarmasin&aqi=no

@@ -1,0 +1,138 @@
+﻿log_id;device_id;activity_date;application_name;screen_time_minutes;battery_usage_percent;activity_category
+1;D001;23/12/2025;Instagram;91;15,6;Social Media
+2;D001;23/12/2025;TikTok;59;12,9;Social Media
+3;D001;23/12/2025;WhatsApp;20;3;Messaging
+4;D001;23/12/2025;YouTube Music;26;2,6;Music
+5;D001;23/12/2025;Layanan Google Play;0;2,4;System
+6;D001;23/12/2025;UI sistem;0;1,7;System
+7;D001;23/12/2025;Galaxy Store;0;1;System
+8;D001;23/12/2025;Google Play Store;0;1;System
+9;D001;23/12/2025;Shopee;3;0,9;E‑Commerce
+10;D001;23/12/2025;KCMTix;11;0,7;Entertainment
+11;D001;23/12/2025;Maps;3;0,7;Navigation
+12;D001;23/12/2025;Grab;1;0,7;Transportation
+13;D001;23/12/2025;Chrome;2;0,3;Browser
+14;D001;23/12/2025;GoPay;2;0,3;Finance
+15;D001;23/12/2025;Livin’ by Mandiri;2;0,3;Finance
+16;D003;23/12/2025;TikTok;229;51;Social Media
+17;D003;23/12/2025;Safari;47;14;Browser
+18;D003;23/12/2025;WhatsApp;38;9;Messaging
+19;D003;23/12/2025;Preview;10;3;Tools
+20;D003;23/12/2025;Shopee;2;1;E-Commerce
+21;D003;23/12/2025;YouTube;2;1;Entertainment
+22;D001;22/12/2025; TikTok;138;24,4; Social Media
+23;D001;22/12/2025; Instagram;137;19,2; Social Media
+24;D001;22/12/2025; Shopee;19;6,5; E-Commerce
+25;D001;22/12/2025; WhatsApp;19;5,7; Messaging
+26;D001;22/12/2025; Layanan Google Play;0;2,1; System
+27;D001;22/12/2025; Traveloka;17;2; Travel
+28;D001;22/12/2025; Chrome;8;1,6; Browser
+29;D001;22/12/2025; UI sistem;0;1,5; System
+30;D001;22/12/2025; Beranda One UI;13;1,3; System
+31;D001;22/12/2025; Google;3;0,6; Utility
+32;D001;22/12/2025; Flightradar24;2;0,6; Utility
+33;D001;22/12/2025; YouTube;1;0,5; Streaming
+34;D001;22/12/2025; Google Play Store;0;0,3; System
+35;D001;22/12/2025; Keyboard Samsung;0;0,3; System
+36;D001;22/12/2025; Kalkulator;4;0,2; Utility
+37;D001;22/12/2025; KCMTix;3;0,2; Entertainment
+38;D001;22/12/2025; Kamera;1;0,2; Camera
+39;D001;22/12/2025; Livin’ by Mandiri;1;0,2; Finance
+40;D001;22/12/2025; Maps;1;0,2; Navigation
+41;D001;22/12/2025; Telegram;1;0,2; Messaging
+42;D001;22/12/2025; Galeri;1;0,1; Utility
+43;D001;22/12/2025; Facebook;0;0,1; Social Media
+44;D001;22/12/2025; Gmail;0;0,1; Email
+45;D001;22/12/2025; Gojek;0;0,1; Transportation
+46;D001;17/12/2025;TikTok;217;34,4;Entertainment
+47;D001;17/12/2025;Instagram;110;20,5;Social Media
+48;D001;17/12/2025;WhatsApp;15;3,7;Communication
+49;D001;17/12/2025;Layanan Google Play;0,5;2,3;System
+50;D001;17/12/2025;CamScanner;10;1,4;Productivity
+51;D001;17/12/2025;MitraDarat;4;1,2;Travel
+52;D001;17/12/2025;YouTube Music;0,5;1,1;Entertainment
+53;D001;17/12/2025;UI Sistem;0,5;1;System
+54;D001;17/12/2025;Shopee;2;0,8;Shopping
+55;D001;18/12/2025;TikTok;253;37,4;Entertainment
+56;D001;18/12/2025;Instagram;206;33,7;Social Media
+57;D001;18/12/2025;Shopee;25;5;Shopping
+58;D001;18/12/2025;Layanan Google Play;0,5;2,1;System
+59;D001;18/12/2025;WhatsApp;15;1,6;Communication
+60;D001;18/12/2025;UI Sistem;0,5;1,6;System
+61;D001;18/12/2025;Chrome;3;1,4;Browser
+62;D001;18/12/2025;Beranda One UI;6;0,9;System
+63;D001;18/12/2025;BitLife;5;0,5;Games
+64;D001;18/12/2025;ChatGPT;5;0,5;Productivity
+65;D001;19/12/2025;TikTok;301;38,2;Entertainment
+66;D001;19/12/2025;Instagram;111;18,9;Social Media
+67;D001;19/12/2025;Shopee;23;6,8;Shopping
+68;D001;19/12/2025;Layanan Google Play;0,5;2;System
+69;D001;19/12/2025;ZALORA;10;1,4;Shopping
+70;D001;19/12/2025;UI Sistem;0,5;1,1;System
+71;D001;19/12/2025;Beranda One UI;5;1;System
+72;D001;19/12/2025;WhatsApp;5;1;Communication
+73;D001;19/12/2025;Samsung Internet;4;0,5;Browser
+74;D001;20/12/2025;TikTok;159;18,4;Entertainment
+75;D001;20/12/2025;Instagram;96;15,1;Social Media
+76;D001;20/12/2025;Shopee;23;5;Shopping
+77;D001;20/12/2025;Drive;2;4,1;Productivity
+78;D001;20/12/2025;Layanan Google Play;0,5;2,3;System
+79;D001;20/12/2025;WhatsApp;11;1,5;Communication
+80;D001;20/12/2025;UI Sistem;0,5;1,2;System
+81;D001;20/12/2025;Subway Surf;7;1;Games
+82;D001;20/12/2025;Galaxy Buds;0,5;0,9;Tools
+83;D001;20/12/2025;YouTube Music;4;0,8;Entertainment
+84;D001;21/12/2025;TikTok;186;28,3;Entertainment
+85;D001;21/12/2025;Instagram;63;13,8;Social Media
+86;D001;21/12/2025;WhatsApp;34;6,6;Communication
+87;D001;21/12/2025;BitLife;28;4,5;Games
+88;D001;21/12/2025;Layanan Google Play;0,5;2,7;System
+89;D001;21/12/2025;Shopee;5;2,2;Shopping
+90;D001;21/12/2025;Eraspace;12;1,9;Shopping
+91;D001;21/12/2025;Chrome;1;1,4;Browser
+92;D001;21/12/2025;UI Sistem;0,5;1,2;System
+93;D001;21/12/2025;Panggilan Suara (WA);0,5;1;Communication
+94;D003;22/12/2025;TikTok;184;48;Entertainment
+95;D003;22/12/2025;Safari;91;24;Browser
+96;D003;22/12/2025;WhatsApp;142;18;Communication
+97;D003;22/12/2025;Preview;4;2;Tools
+98;D003;22/12/2025;Youtube;4;1;Entertainment
+99;D003;22/12/2025;Instagram;1;1;Social Media
+100;D003;21/12/2025;Safari;169;51;Browser
+101;D003;21/12/2025;TikTok;114;31;Entertainment
+102;D003;21/12/2025;WhatsApp;151;26;Communication
+103;D003;21/12/2025;Shopee;25;7;E-Commerce
+104;D003;21/12/2025;Discord;3;1;Communication
+105;D003;21/12/2025;Youtube;3;1;Entertainment
+106;D003;20/12/2025;TikTok;144;40;Entertainment
+107;D003;20/12/2025;Safari;136;34;Browser
+108;D003;20/12/2025;WhatsApp;105;18;Communication
+109;D003;20/12/2025;Clash of Clans;45;10;Games
+110;D003;20/12/2025;Shopee;8;3;E-Commerce
+111;D003;20/12/2025;Youtube;11;3;Entertainment
+112;D003;20/12/2025;Voice Memos;7;1;Tools
+113;D003;19/12/2025;TikTok;159;38;Entertainment
+114;D003;19/12/2025;Safari;89;23;Browser
+115;D003;19/12/2025;WhatsApp;81;13;Communication
+116;D003;19/12/2025;Clash of Clans;21;4;Games
+117;D003;19/12/2025;Youtube;16;4;Entertainment
+118;D003;19/12/2025;Shopee;1;1;E-Commerce
+119;D003;18/12/2025;TikTok;154;44;Entertainment
+120;D003;18/12/2025;Safari;45;19;Browser
+121;D003;18/12/2025;WhatsApp;61;18;Communication
+122;D003;18/12/2025;Clash of Clans;47;17;Games
+123;D003;18/12/2025;Gojek;22;7;Travel
+124;D003;18/12/2025;Shopee;4;4;E-Commerce
+125;D003;18/12/2025;App Store;1;1;System
+126;D003;18/12/2025;Gmail;4;1;Tools
+127;D003;18/12/2025;Photos;1;1;Tools
+128;D003;17/12/2025;TikTok;209;48;Entertainment
+129;D003;17/12/2025;WhatsApp;271;40;Communication
+130;D003;17/12/2025;Safari;133;30;Browser
+131;D003;17/12/2025;Shopee;14;4;E-Commerce
+132;D003;17/12/2025;Clash of Clans;7;3;Games
+133;D003;17/12/2025;Voice Memos;1;1;Tools
+134;D003;17/12/2025;Photos;1;1;Tools
+135;D003;17/12/2025;Livin' by Mandiri;4;1;Tools
+136;D003;17/12/2025;Instagram;2;1;Entertainment
+

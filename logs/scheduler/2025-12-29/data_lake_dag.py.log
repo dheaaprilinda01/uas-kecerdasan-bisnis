@@ -1,0 +1,702 @@
+[2025-12-29T01:08:49.208+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:08:49.209+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:08:49.210+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:08:49.210+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:08:50.051+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:08:50.088+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:08:50.088+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:08:50.105+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:08:50.105+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-28T15:22:46.902309+00:00, run_after=2025-12-29T15:22:46.902309+00:00
+[2025-12-29T01:08:50.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.918 seconds
+[2025-12-29T01:09:20.322+0000] {processor.py:157} INFO - Started process (PID=50) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:09:20.323+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:09:20.324+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:20.324+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:09:20.823+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:09:20.930+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:20.930+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:battery_data_lake_dag' as access control is unset.
+[2025-12-29T01:09:20.931+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:20.931+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:09:20.946+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:20.946+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-28T15:22:46.902309+00:00, run_after=2025-12-29T15:22:46.902309+00:00
+[2025-12-29T01:09:20.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.643 seconds
+[2025-12-29T01:09:51.170+0000] {processor.py:157} INFO - Started process (PID=52) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:09:51.170+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:09:51.171+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:51.171+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:09:51.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:09:51.730+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:51.730+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:09:51.750+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:09:51.750+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-28T15:22:46.902309+00:00, run_after=2025-12-29T15:22:46.902309+00:00
+[2025-12-29T01:09:51.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.607 seconds
+[2025-12-29T01:10:46.575+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:10:46.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:10:46.577+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:46.576+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:10:47.981+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:10:48.176+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.176+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:10:48.184+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.184+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:10:48.190+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.190+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:10:48.191+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.191+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:battery_data_lake_dag' as access control is unset.
+[2025-12-29T01:10:48.191+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.191+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:10:48.200+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.200+0000] {dag.py:2937} INFO - Creating ORM DAG for battery_data_lake_dag
+[2025-12-29T01:10:48.208+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:10:48.208+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-28T01:10:48.208066+00:00, run_after=2025-12-29T01:10:48.208066+00:00
+[2025-12-29T01:10:48.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 1.652 seconds
+[2025-12-29T01:11:18.412+0000] {processor.py:157} INFO - Started process (PID=76) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:11:18.413+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:11:18.413+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:11:18.413+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:11:18.897+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:11:18.919+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:11:18.918+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:11:18.936+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:11:18.936+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:11:18.952+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.543 seconds
+[2025-12-29T01:11:49.128+0000] {processor.py:157} INFO - Started process (PID=173) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:11:49.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:11:49.130+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:11:49.130+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:11:49.631+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:11:49.658+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:11:49.657+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:11:49.677+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:11:49.676+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:11:49.692+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.567 seconds
+[2025-12-29T01:12:20.017+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:12:20.018+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:12:20.019+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:12:20.019+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:12:20.383+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:12:20.411+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:12:20.411+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:12:20.431+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:12:20.430+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:12:20.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.434 seconds
+[2025-12-29T01:12:50.635+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:12:50.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:12:50.636+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:12:50.636+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:12:51.005+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:12:51.034+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:12:51.033+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:12:51.056+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:12:51.056+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:12:51.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.441 seconds
+[2025-12-29T01:13:21.263+0000] {processor.py:157} INFO - Started process (PID=179) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:13:21.264+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:13:21.265+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:13:21.264+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:13:21.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:13:21.657+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:13:21.657+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:13:21.679+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:13:21.679+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:13:21.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.438 seconds
+[2025-12-29T01:13:51.881+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:13:51.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:13:51.883+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:13:51.883+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:13:52.245+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:13:52.272+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:13:52.271+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:13:52.294+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:13:52.294+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:13:52.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.434 seconds
+[2025-12-29T01:14:22.521+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:14:22.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:14:22.526+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:14:22.525+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:14:23.034+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:14:23.063+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:14:23.062+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:14:23.083+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:14:23.083+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:14:23.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.585 seconds
+[2025-12-29T01:14:53.202+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:14:53.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:14:53.204+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:14:53.203+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:14:53.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:14:53.593+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:14:53.593+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:14:53.612+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:14:53.612+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:14:53.630+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.432 seconds
+[2025-12-29T01:15:23.821+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:15:23.822+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:15:23.823+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:15:23.822+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:15:24.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:15:24.208+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:15:24.207+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:15:24.229+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:15:24.229+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:15:24.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.427 seconds
+[2025-12-29T01:15:54.435+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:15:54.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:15:54.436+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:15:54.436+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:15:54.780+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:15:54.808+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:15:54.808+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:15:54.828+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:15:54.828+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:15:54.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.414 seconds
+[2025-12-29T01:16:25.039+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:16:25.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:16:25.040+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:16:25.040+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:16:25.388+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:16:25.417+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:16:25.417+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:16:25.439+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:16:25.439+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:16:25.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.422 seconds
+[2025-12-29T01:16:55.657+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:16:55.657+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:16:55.658+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:16:55.658+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:16:55.997+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:16:56.023+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:16:56.023+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:16:56.041+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:16:56.041+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:16:56.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.403 seconds
+[2025-12-29T01:17:26.244+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:17:26.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:17:26.245+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:17:26.245+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:17:26.585+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:17:26.611+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:17:26.611+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:17:26.632+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:17:26.632+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:17:26.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.407 seconds
+[2025-12-29T01:17:56.838+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:17:56.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:17:56.839+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:17:56.839+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:17:57.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:17:57.210+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:17:57.210+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:17:57.230+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:17:57.230+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:17:57.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.411 seconds
+[2025-12-29T01:18:27.439+0000] {processor.py:157} INFO - Started process (PID=199) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:18:27.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:18:27.440+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:18:27.440+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:18:27.784+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:18:27.811+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:18:27.811+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:18:27.828+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:18:27.828+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:18:27.847+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.411 seconds
+[2025-12-29T01:18:58.039+0000] {processor.py:157} INFO - Started process (PID=201) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:18:58.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:18:58.040+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:18:58.040+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:18:58.398+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:18:58.427+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:18:58.427+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:18:58.448+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:18:58.448+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:18:58.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.643 seconds
+[2025-12-29T01:19:28.751+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:19:28.752+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:19:28.753+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:19:28.753+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:19:29.124+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:19:29.150+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:19:29.150+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:19:29.169+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:19:29.169+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:19:29.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.439 seconds
+[2025-12-29T01:19:59.363+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:19:59.364+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:19:59.364+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:19:59.364+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:19:59.723+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:19:59.752+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:19:59.752+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:19:59.771+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:19:59.771+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:19:59.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.428 seconds
+[2025-12-29T01:20:29.976+0000] {processor.py:157} INFO - Started process (PID=207) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:20:29.977+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:20:29.978+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:20:29.977+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:20:30.381+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:20:30.408+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:20:30.407+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:20:30.426+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:20:30.426+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:20:30.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.484 seconds
+[2025-12-29T01:21:00.641+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:21:00.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:21:00.642+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:21:00.642+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:21:00.993+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:21:01.020+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:21:01.020+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:21:01.041+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:21:01.041+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:21:01.074+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.436 seconds
+[2025-12-29T01:21:31.256+0000] {processor.py:157} INFO - Started process (PID=211) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:21:31.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:21:31.257+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:21:31.257+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:21:31.607+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:21:31.636+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:21:31.635+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:21:31.655+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:21:31.655+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:21:31.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.427 seconds
+[2025-12-29T01:22:01.873+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:01.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:22:01.875+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:01.875+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:02.383+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:02.415+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:02.415+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:22:02.434+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:02.434+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:22:02.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.580 seconds
+[2025-12-29T01:22:08.457+0000] {processor.py:157} INFO - Started process (PID=215) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:08.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:22:08.459+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:08.459+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:08.845+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:08.875+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:08.874+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:22:08.898+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:08.898+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:10:48.208066+00:00, run_after=2025-12-30T01:10:48.208066+00:00
+[2025-12-29T01:22:08.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.469 seconds
+[2025-12-29T01:22:59.067+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:22:59.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:22:59.069+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:22:59.069+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:23:00.474+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:23:00.644+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.644+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:23:00.651+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.651+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:23:00.657+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.657+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:23:00.658+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.657+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:battery_data_lake_dag' as access control is unset.
+[2025-12-29T01:23:00.658+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.658+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:23:00.669+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.669+0000] {dag.py:2937} INFO - Creating ORM DAG for battery_data_lake_dag
+[2025-12-29T01:23:00.678+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:00.678+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-28T01:23:00.678067+00:00, run_after=2025-12-29T01:23:00.678067+00:00
+[2025-12-29T01:23:00.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 1.639 seconds
+[2025-12-29T01:23:30.919+0000] {processor.py:157} INFO - Started process (PID=95) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:23:30.920+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:23:30.921+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:30.920+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:23:31.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:23:31.401+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:31.401+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:23:31.419+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:23:31.419+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:23:31.434+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.517 seconds
+[2025-12-29T01:24:01.622+0000] {processor.py:157} INFO - Started process (PID=173) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:24:01.624+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:24:01.625+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:24:01.625+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:24:02.083+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:24:02.107+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:24:02.107+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:24:02.123+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:24:02.123+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:24:02.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.521 seconds
+[2025-12-29T01:24:32.322+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:24:32.323+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:24:32.323+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:24:32.323+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:24:32.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:24:32.698+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:24:32.698+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:24:32.719+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:24:32.719+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:24:32.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.419 seconds
+[2025-12-29T01:25:02.928+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:25:02.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:25:02.930+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:25:02.930+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:25:03.286+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:25:03.313+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:25:03.313+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:25:03.332+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:25:03.332+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:25:03.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.424 seconds
+[2025-12-29T01:25:33.531+0000] {processor.py:157} INFO - Started process (PID=179) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:25:33.532+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:25:33.532+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:25:33.532+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:25:33.895+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:25:33.921+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:25:33.921+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:25:33.940+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:25:33.940+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:25:33.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.431 seconds
+[2025-12-29T01:26:04.140+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:26:04.141+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:26:04.142+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:26:04.142+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:26:04.501+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:26:04.532+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:26:04.531+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:26:04.554+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:26:04.554+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:26:04.574+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.436 seconds
+[2025-12-29T01:26:34.750+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:26:34.751+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:26:34.751+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:26:34.751+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:26:35.295+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:26:35.321+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:26:35.321+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:26:35.341+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:26:35.341+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:26:35.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.610 seconds
+[2025-12-29T01:27:05.447+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:05.447+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:27:05.448+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:05.448+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:05.809+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:05.836+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:05.835+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:27:05.856+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:05.855+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:27:05.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.428 seconds
+[2025-12-29T01:27:13.564+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:13.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:27:13.566+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:13.566+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:13.935+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:13.962+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:13.962+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:27:13.981+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:13.981+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:27:14.003+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.442 seconds
+[2025-12-29T01:27:44.110+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:44.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:27:44.111+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:44.111+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:44.452+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:27:44.478+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:44.478+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:27:44.495+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:27:44.495+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:27:44.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.404 seconds
+[2025-12-29T01:28:14.691+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:28:14.691+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:28:14.692+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:28:14.692+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:28:15.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:28:15.214+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:28:15.213+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:28:15.238+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:28:15.238+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:28:15.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.576 seconds
+[2025-12-29T01:28:45.466+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:28:45.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:28:45.468+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:28:45.467+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:28:45.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:28:45.873+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:28:45.873+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:28:45.895+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:28:45.895+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:28:45.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.452 seconds
+[2025-12-29T01:29:15.999+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:29:16.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:29:16.001+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:29:16.000+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:29:16.352+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:29:16.380+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:29:16.379+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:29:16.400+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:29:16.400+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:29:16.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.423 seconds
+[2025-12-29T01:29:23.497+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:29:23.498+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:29:23.498+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:29:23.498+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:29:23.875+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:29:23.904+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:29:23.904+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:29:23.927+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:29:23.927+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:23:00.678067+00:00, run_after=2025-12-30T01:23:00.678067+00:00
+[2025-12-29T01:29:23.951+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.457 seconds
+[2025-12-29T01:30:07.327+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:30:07.328+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:30:07.328+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:07.328+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:30:08.588+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:30:08.757+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.757+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:30:08.765+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.765+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:30:08.771+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.771+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-29T01:30:08.772+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.771+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:battery_data_lake_dag' as access control is unset.
+[2025-12-29T01:30:08.772+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.772+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:30:08.781+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.781+0000] {dag.py:2937} INFO - Creating ORM DAG for battery_data_lake_dag
+[2025-12-29T01:30:08.789+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:08.788+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-28T01:30:08.788747+00:00, run_after=2025-12-29T01:30:08.788747+00:00
+[2025-12-29T01:30:08.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 1.480 seconds
+[2025-12-29T01:30:38.991+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:30:38.992+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:30:38.993+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:38.993+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:30:39.493+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:30:39.516+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:39.515+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:30:39.535+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:30:39.535+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:30:39.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.562 seconds
+[2025-12-29T01:31:09.671+0000] {processor.py:157} INFO - Started process (PID=173) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:31:09.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:31:09.672+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:31:09.672+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:31:10.138+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:31:10.160+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:31:10.160+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:31:10.176+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:31:10.176+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:31:10.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.524 seconds
+[2025-12-29T01:31:40.513+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:31:40.513+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:31:40.514+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:31:40.514+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:31:40.888+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:31:40.914+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:31:40.914+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:31:40.936+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:31:40.936+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:31:40.954+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.444 seconds
+[2025-12-29T01:32:11.034+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:32:11.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:32:11.037+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:32:11.036+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:32:11.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:32:11.465+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:32:11.464+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:32:11.485+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:32:11.485+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:32:11.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.472 seconds
+[2025-12-29T01:32:41.698+0000] {processor.py:157} INFO - Started process (PID=179) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:32:41.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:32:41.699+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:32:41.699+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:32:42.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:32:42.088+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:32:42.088+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:32:42.110+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:32:42.110+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:32:42.128+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.434 seconds
+[2025-12-29T01:33:12.323+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:33:12.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:33:12.325+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:33:12.325+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:33:12.662+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:33:12.689+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:33:12.689+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:33:12.707+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:33:12.707+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:33:12.724+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.403 seconds
+[2025-12-29T01:33:42.920+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:33:42.921+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:33:42.922+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:33:42.921+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:33:43.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:33:43.282+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:33:43.281+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:33:43.301+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:33:43.301+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:33:43.316+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.399 seconds
+[2025-12-29T01:34:13.511+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:34:13.512+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:34:13.513+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:34:13.512+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:34:14.029+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:34:14.063+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:34:14.062+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:34:14.087+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:34:14.087+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:34:14.104+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.596 seconds
+[2025-12-29T01:34:44.257+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:34:44.258+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:34:44.259+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:34:44.258+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:34:44.596+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:34:44.623+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:34:44.622+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:34:44.643+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:34:44.642+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:34:44.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.405 seconds
+[2025-12-29T01:35:14.857+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:35:14.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:35:14.858+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:35:14.858+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:35:15.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:35:15.220+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:35:15.220+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:35:15.240+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:35:15.240+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:35:15.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.402 seconds
+[2025-12-29T01:35:45.446+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:35:45.447+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:35:45.448+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:35:45.448+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:35:45.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:35:45.807+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:35:45.807+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:35:45.827+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:35:45.826+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:35:45.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.398 seconds
+[2025-12-29T01:36:16.043+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:36:16.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:36:16.044+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:36:16.044+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:36:16.416+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:36:16.444+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:36:16.443+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:36:16.463+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:36:16.462+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:36:16.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.442 seconds
+[2025-12-29T01:36:46.668+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:36:46.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:36:46.670+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:36:46.670+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:36:47.021+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:36:47.050+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:36:47.049+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:36:47.069+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:36:47.069+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:36:47.084+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.419 seconds
+[2025-12-29T01:37:17.266+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:37:17.266+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:37:17.267+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:37:17.267+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:37:17.611+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:37:17.637+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:37:17.637+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:37:17.655+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:37:17.655+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:37:17.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.409 seconds
+[2025-12-29T01:37:47.854+0000] {processor.py:157} INFO - Started process (PID=199) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:37:47.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:37:47.856+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:37:47.855+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:37:48.212+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:37:48.241+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:37:48.241+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:37:48.261+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:37:48.261+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:37:48.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.426 seconds
+[2025-12-29T01:38:18.467+0000] {processor.py:157} INFO - Started process (PID=201) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:38:18.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:38:18.468+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:38:18.468+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:38:18.816+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:38:18.843+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:38:18.843+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:38:18.862+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:38:18.861+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:38:18.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.415 seconds
+[2025-12-29T01:38:49.080+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:38:49.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:38:49.081+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:38:49.081+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:38:49.425+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:38:49.453+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:38:49.452+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:38:49.475+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:38:49.474+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:38:49.495+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.418 seconds
+[2025-12-29T01:39:19.676+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:39:19.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:39:19.677+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:39:19.677+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:39:20.021+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:39:20.049+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:39:20.049+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:39:20.068+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:39:20.068+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:39:20.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.423 seconds
+[2025-12-29T01:39:50.288+0000] {processor.py:157} INFO - Started process (PID=207) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:39:50.289+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:39:50.290+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:39:50.290+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:39:50.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:39:50.654+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:39:50.654+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:39:50.672+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:39:50.672+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:39:50.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.404 seconds
+[2025-12-29T01:40:20.901+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:40:20.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:40:20.903+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:40:20.903+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:40:21.263+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:40:21.295+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:40:21.294+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:40:21.318+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:40:21.318+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:40:21.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.439 seconds
+[2025-12-29T01:40:51.529+0000] {processor.py:157} INFO - Started process (PID=211) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:40:51.530+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:40:51.531+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:40:51.530+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:40:51.895+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:40:51.924+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:40:51.924+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:40:51.946+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:40:51.946+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:40:51.963+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.437 seconds
+[2025-12-29T01:41:22.148+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:41:22.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:41:22.149+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:41:22.149+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:41:22.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:41:22.512+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:41:22.511+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:41:22.532+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:41:22.531+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:41:22.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.403 seconds
+[2025-12-29T01:41:52.742+0000] {processor.py:157} INFO - Started process (PID=215) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:41:52.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:41:52.744+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:41:52.744+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:41:53.227+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:41:53.256+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:41:53.256+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:41:53.275+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:41:53.275+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:41:53.291+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.552 seconds
+[2025-12-29T01:42:23.480+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:42:23.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:42:23.482+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:42:23.481+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:42:23.856+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:42:23.884+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:42:23.884+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:42:23.905+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:42:23.905+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:42:23.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.445 seconds
+[2025-12-29T01:42:54.108+0000] {processor.py:157} INFO - Started process (PID=219) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:42:54.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:42:54.110+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:42:54.109+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:42:54.632+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:42:54.656+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:42:54.655+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:42:54.674+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:42:54.674+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:42:54.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.586 seconds
+[2025-12-29T01:43:24.815+0000] {processor.py:157} INFO - Started process (PID=221) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:43:24.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:43:24.817+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:43:24.817+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:43:25.381+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:43:25.413+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:43:25.413+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:43:25.433+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:43:25.433+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:43:25.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.637 seconds
+[2025-12-29T01:43:55.637+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:43:55.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:43:55.639+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:43:55.639+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:43:55.999+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:43:56.026+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:43:56.025+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:43:56.045+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:43:56.045+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:43:56.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.430 seconds
+[2025-12-29T01:44:26.185+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:44:26.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:44:26.186+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:44:26.186+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:44:26.511+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:44:26.537+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:44:26.537+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:44:26.557+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:44:26.557+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:44:26.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.391 seconds
+[2025-12-29T01:44:56.752+0000] {processor.py:157} INFO - Started process (PID=227) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:44:56.752+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:44:56.753+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:44:56.753+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:44:57.088+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:44:57.115+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:44:57.114+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:44:57.133+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:44:57.133+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:44:57.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.401 seconds
+[2025-12-29T01:45:27.355+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:45:27.356+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:45:27.356+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:45:27.356+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:45:27.688+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:45:27.715+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:45:27.714+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:45:27.733+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:45:27.733+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:45:27.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.397 seconds
+[2025-12-29T01:45:57.934+0000] {processor.py:157} INFO - Started process (PID=231) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:45:57.935+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:45:57.936+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:45:57.936+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:45:58.294+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:45:58.321+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:45:58.321+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:45:58.340+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:45:58.340+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:45:58.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.426 seconds
+[2025-12-29T01:46:28.557+0000] {processor.py:157} INFO - Started process (PID=233) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:46:28.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:46:28.559+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:46:28.559+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:46:28.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:46:28.966+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:46:28.966+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:46:28.984+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:46:28.984+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:46:29.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.446 seconds
+[2025-12-29T01:46:59.185+0000] {processor.py:157} INFO - Started process (PID=235) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:46:59.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:46:59.187+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:46:59.187+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:46:59.711+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:46:59.744+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:46:59.743+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:46:59.763+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:46:59.763+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:46:59.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.598 seconds
+[2025-12-29T01:47:29.872+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:47:29.873+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:47:29.874+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:47:29.873+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:47:30.232+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:47:30.260+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:47:30.259+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:47:30.279+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:47:30.279+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:47:30.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.427 seconds
+[2025-12-29T01:48:00.485+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:48:00.486+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:48:00.487+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:48:00.487+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:48:00.983+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:48:01.015+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:48:01.014+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:48:01.033+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:48:01.033+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:48:01.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.568 seconds
+[2025-12-29T01:48:31.250+0000] {processor.py:157} INFO - Started process (PID=241) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:48:31.251+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:48:31.252+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:48:31.252+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:48:31.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:48:31.633+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:48:31.632+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:48:31.651+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:48:31.651+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:48:31.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.420 seconds
+[2025-12-29T01:49:01.805+0000] {processor.py:157} INFO - Started process (PID=243) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:49:01.806+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:49:01.806+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:49:01.806+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:49:02.166+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:49:02.192+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:49:02.191+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:49:02.211+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:49:02.211+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:49:02.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.426 seconds
+[2025-12-29T01:49:32.414+0000] {processor.py:157} INFO - Started process (PID=245) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:49:32.415+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:49:32.416+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:49:32.416+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:49:32.937+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:49:32.971+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:49:32.971+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:49:32.994+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:49:32.994+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:49:33.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.600 seconds
+[2025-12-29T01:50:03.156+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:50:03.157+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:50:03.158+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:50:03.157+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:50:03.493+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:50:03.518+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:50:03.518+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:50:03.537+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:50:03.537+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:50:03.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.402 seconds
+[2025-12-29T01:50:33.771+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:50:33.771+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:50:33.772+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:50:33.772+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:50:34.116+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:50:34.145+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:50:34.145+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:50:34.165+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:50:34.165+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:50:34.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.414 seconds
+[2025-12-29T01:51:04.373+0000] {processor.py:157} INFO - Started process (PID=251) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:51:04.373+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:51:04.374+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:51:04.374+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:51:04.886+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:51:04.921+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:51:04.920+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:51:04.943+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:51:04.943+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:51:04.960+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.591 seconds
+[2025-12-29T01:51:35.094+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:51:35.094+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:51:35.095+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:51:35.095+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:51:35.437+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:51:35.464+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:51:35.464+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:51:35.483+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:51:35.483+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:51:35.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.408 seconds
+[2025-12-29T01:52:05.689+0000] {processor.py:157} INFO - Started process (PID=255) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:52:05.690+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:52:05.691+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:52:05.691+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:52:06.176+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:52:06.205+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:52:06.204+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:52:06.223+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:52:06.223+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:52:06.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.553 seconds
+[2025-12-29T01:52:36.439+0000] {processor.py:157} INFO - Started process (PID=257) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:52:36.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:52:36.441+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:52:36.440+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:52:36.777+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:52:36.805+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:52:36.805+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:52:36.824+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:52:36.824+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:52:36.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.405 seconds
+[2025-12-29T01:53:07.013+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:53:07.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:53:07.014+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:53:07.014+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:53:07.348+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:53:07.375+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:53:07.375+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:53:07.394+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:53:07.394+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:53:07.411+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.400 seconds
+[2025-12-29T01:53:37.597+0000] {processor.py:157} INFO - Started process (PID=261) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:53:37.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:53:37.599+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:53:37.598+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:53:37.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:53:37.967+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:53:37.966+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:53:37.986+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:53:37.986+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:53:38.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.407 seconds
+[2025-12-29T01:54:08.190+0000] {processor.py:157} INFO - Started process (PID=263) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:54:08.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:54:08.191+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:54:08.191+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:54:08.518+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:54:08.545+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:54:08.545+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:54:08.564+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:54:08.564+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:54:08.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.396 seconds
+[2025-12-29T01:54:38.765+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:54:38.766+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:54:38.767+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:54:38.766+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:54:39.104+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:54:39.133+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:54:39.133+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:54:39.153+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:54:39.153+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:54:39.170+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.408 seconds
+[2025-12-29T01:55:09.357+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:55:09.358+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:55:09.358+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:55:09.358+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:55:09.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:55:09.728+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:55:09.727+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:55:09.748+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:55:09.748+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:55:09.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.411 seconds
+[2025-12-29T01:55:39.970+0000] {processor.py:157} INFO - Started process (PID=269) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:55:39.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:55:39.972+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:55:39.971+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:55:40.305+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:55:40.332+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:55:40.331+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:55:40.350+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:55:40.350+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:55:40.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.399 seconds
+[2025-12-29T01:56:10.554+0000] {processor.py:157} INFO - Started process (PID=271) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:56:10.555+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:56:10.556+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:56:10.556+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:56:11.037+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:56:11.067+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:56:11.066+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:56:11.086+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:56:11.086+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:56:11.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.551 seconds
+[2025-12-29T01:56:41.288+0000] {processor.py:157} INFO - Started process (PID=273) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:56:41.289+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:56:41.289+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:56:41.289+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:56:41.641+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:56:41.674+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:56:41.673+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:56:41.697+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:56:41.697+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:56:41.717+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.431 seconds
+[2025-12-29T01:57:11.902+0000] {processor.py:157} INFO - Started process (PID=275) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:57:11.903+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:57:11.904+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:57:11.903+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:57:12.395+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:57:12.426+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:57:12.426+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:57:12.446+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:57:12.446+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:57:12.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.565 seconds
+[2025-12-29T01:57:42.616+0000] {processor.py:157} INFO - Started process (PID=277) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:57:42.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:57:42.618+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:57:42.617+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:57:42.934+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:57:42.958+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:57:42.958+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:57:42.976+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:57:42.976+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:57:42.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.378 seconds
+[2025-12-29T01:58:13.180+0000] {processor.py:157} INFO - Started process (PID=279) to work on /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:58:13.180+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/data_lake_dag.py for tasks to queue
+[2025-12-29T01:58:13.182+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:58:13.181+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:58:13.676+0000] {processor.py:839} INFO - DAG(s) dict_keys(['battery_data_lake_dag']) retrieved from /opt/airflow/dags/data_lake_dag.py
+[2025-12-29T01:58:13.749+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:58:13.748+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-29T01:58:13.813+0000] {logging_mixin.py:151} INFO - [2025-12-29T01:58:13.812+0000] {dag.py:3696} INFO - Setting next_dagrun for battery_data_lake_dag to 2025-12-29T01:30:08.788747+00:00, run_after=2025-12-30T01:30:08.788747+00:00
+[2025-12-29T01:58:13.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data_lake_dag.py took 0.674 seconds

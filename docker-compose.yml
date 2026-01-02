@@ -1,0 +1,111 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  airflow-webserver:
+    image: apache/airflow:2.7.1
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__FERNET_KEY=fb391195ca1e472d4c72d4c72d4c72d4c72d4c72d4c=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - _PIP_ADDITIONAL_DEPENDENCIES=boto3 pandas requests apache-airflow-providers-postgres
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./data_source:/opt/airflow/data_source
+      - ./data_charging.sql:/opt/airflow/data_charging.sql
+      - ./API.txt:/opt/airflow/API.txt
+    command: webserver
+
+  airflow-scheduler:
+    image: apache/airflow:2.7.1
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__FERNET_KEY=fb391195ca1e472d4c72d4c72d4c72d4c72d4c72d4c=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - _PIP_ADDITIONAL_DEPENDENCIES=boto3 pandas requests
+    restart: always
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./data_source:/opt/airflow/data_source
+      - ./data_charging.sql:/opt/airflow/data_charging.sql
+      - ./API.txt:/opt/airflow/API.txt
+    command: scheduler
+
+  airflow-init:
+    image: apache/airflow:2.7.1
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+    command: >
+      bash -c "airflow db init &&
+      airflow users create --username admin --firstname admin --lastname admin --role Admin --email admin@example.com --password admin"
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    depends_on:
+      minio:
+        condition: service_healthy
+    volumes:
+      - ./app.py:/app/app.py
+    ports:
+      - "8501:8501"
+    environment:
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - BUCKET_NAME=datalake
+      - AIRFLOW_API_URL=http://airflow-webserver:8080/api/v1

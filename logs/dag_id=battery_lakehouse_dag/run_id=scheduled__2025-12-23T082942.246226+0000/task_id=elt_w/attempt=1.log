@@ -1,0 +1,13 @@
+[2025-12-24T08:29:56.881+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: battery_lakehouse_dag.elt_w scheduled__2025-12-23T08:29:42.246226+00:00 [queued]>
+[2025-12-24T08:29:56.890+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: battery_lakehouse_dag.elt_w scheduled__2025-12-23T08:29:42.246226+00:00 [queued]>
+[2025-12-24T08:29:56.891+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-12-24T08:29:56.904+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): elt_w> on 2025-12-23 08:29:42.246226+00:00
+[2025-12-24T08:29:56.910+0000] {standard_task_runner.py:57} INFO - Started process 112 to run task
+[2025-12-24T08:29:56.914+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'battery_lakehouse_dag', 'elt_w', 'scheduled__2025-12-23T08:29:42.246226+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/lakehouse_dag.py', '--cfg-path', '/tmp/tmpbe8e5fqz']
+[2025-12-24T08:29:56.916+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask elt_w
+[2025-12-24T08:29:57.002+0000] {task_command.py:415} INFO - Running <TaskInstance: battery_lakehouse_dag.elt_w scheduled__2025-12-23T08:29:42.246226+00:00 [running]> on host cb1cc40b52c9
+[2025-12-24T08:29:57.217+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='battery_lakehouse_dag' AIRFLOW_CTX_TASK_ID='elt_w' AIRFLOW_CTX_EXECUTION_DATE='2025-12-23T08:29:42.246226+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-23T08:29:42.246226+00:00'
+[2025-12-24T08:29:57.620+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-24T08:29:57.638+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=battery_lakehouse_dag, task_id=elt_w, execution_date=20251223T082942, start_date=20251224T082956, end_date=20251224T082957
+[2025-12-24T08:29:57.689+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-24T08:29:57.724+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

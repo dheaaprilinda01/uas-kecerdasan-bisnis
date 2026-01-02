@@ -1,0 +1,13 @@
+[2025-12-25T13:03:06.232+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: battery_data_lake_dag.ekstrak_spesifikasi_hp manual__2025-12-25T13:02:45+00:00 [queued]>
+[2025-12-25T13:03:06.243+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: battery_data_lake_dag.ekstrak_spesifikasi_hp manual__2025-12-25T13:02:45+00:00 [queued]>
+[2025-12-25T13:03:06.244+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-12-25T13:03:06.260+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): ekstrak_spesifikasi_hp> on 2025-12-25 13:02:45+00:00
+[2025-12-25T13:03:06.266+0000] {standard_task_runner.py:57} INFO - Started process 184 to run task
+[2025-12-25T13:03:06.272+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'battery_data_lake_dag', 'ekstrak_spesifikasi_hp', 'manual__2025-12-25T13:02:45+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/data_lake_dag.py', '--cfg-path', '/tmp/tmph0zbf8as']
+[2025-12-25T13:03:06.275+0000] {standard_task_runner.py:85} INFO - Job 22: Subtask ekstrak_spesifikasi_hp
+[2025-12-25T13:03:06.354+0000] {task_command.py:415} INFO - Running <TaskInstance: battery_data_lake_dag.ekstrak_spesifikasi_hp manual__2025-12-25T13:02:45+00:00 [running]> on host aaed68f006c5
+[2025-12-25T13:03:06.564+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='battery_data_lake_dag' AIRFLOW_CTX_TASK_ID='ekstrak_spesifikasi_hp' AIRFLOW_CTX_EXECUTION_DATE='2025-12-25T13:02:45+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-25T13:02:45+00:00'
+[2025-12-25T13:03:06.720+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-25T13:03:06.734+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=battery_data_lake_dag, task_id=ekstrak_spesifikasi_hp, execution_date=20251225T130245, start_date=20251225T130306, end_date=20251225T130306
+[2025-12-25T13:03:06.766+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-25T13:03:06.868+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

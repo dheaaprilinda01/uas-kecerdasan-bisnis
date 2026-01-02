@@ -1,0 +1,13 @@
+[2025-12-24T06:23:56.940+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: battery_lakehouse_dag.elt_specs manual__2025-12-24T06:23:34+00:00 [queued]>
+[2025-12-24T06:23:56.950+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: battery_lakehouse_dag.elt_specs manual__2025-12-24T06:23:34+00:00 [queued]>
+[2025-12-24T06:23:56.951+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-12-24T06:23:56.970+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): elt_specs> on 2025-12-24 06:23:34+00:00
+[2025-12-24T06:23:56.978+0000] {standard_task_runner.py:57} INFO - Started process 353 to run task
+[2025-12-24T06:23:56.986+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'battery_lakehouse_dag', 'elt_specs', 'manual__2025-12-24T06:23:34+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/lakehouse_dag.py', '--cfg-path', '/tmp/tmpode1v7mv']
+[2025-12-24T06:23:56.992+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask elt_specs
+[2025-12-24T06:23:57.104+0000] {task_command.py:415} INFO - Running <TaskInstance: battery_lakehouse_dag.elt_specs manual__2025-12-24T06:23:34+00:00 [running]> on host 95871077dc0f
+[2025-12-24T06:23:57.353+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='battery_lakehouse_dag' AIRFLOW_CTX_TASK_ID='elt_specs' AIRFLOW_CTX_EXECUTION_DATE='2025-12-24T06:23:34+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-24T06:23:34+00:00'
+[2025-12-24T06:23:57.518+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-24T06:23:57.530+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=battery_lakehouse_dag, task_id=elt_specs, execution_date=20251224T062334, start_date=20251224T062356, end_date=20251224T062357
+[2025-12-24T06:23:57.565+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-24T06:23:57.688+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

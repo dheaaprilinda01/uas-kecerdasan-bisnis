@@ -1,0 +1,13 @@
+[2025-12-24T07:21:16.116+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: battery_lakehouse_dag.silver scheduled__2025-12-23T07:20:22.673522+00:00 [queued]>
+[2025-12-24T07:21:16.124+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: battery_lakehouse_dag.silver scheduled__2025-12-23T07:20:22.673522+00:00 [queued]>
+[2025-12-24T07:21:16.125+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-12-24T07:21:16.136+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): silver> on 2025-12-23 07:20:22.673522+00:00
+[2025-12-24T07:21:16.140+0000] {standard_task_runner.py:57} INFO - Started process 296 to run task
+[2025-12-24T07:21:16.143+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'battery_lakehouse_dag', 'silver', 'scheduled__2025-12-23T07:20:22.673522+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/lakehouse_dag.py', '--cfg-path', '/tmp/tmpvjyh0lk1']
+[2025-12-24T07:21:16.145+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask silver
+[2025-12-24T07:21:16.215+0000] {task_command.py:415} INFO - Running <TaskInstance: battery_lakehouse_dag.silver scheduled__2025-12-23T07:20:22.673522+00:00 [running]> on host 8c1d8ac5d2e8
+[2025-12-24T07:21:16.440+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='battery_lakehouse_dag' AIRFLOW_CTX_TASK_ID='silver' AIRFLOW_CTX_EXECUTION_DATE='2025-12-23T07:20:22.673522+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-23T07:20:22.673522+00:00'
+[2025-12-24T07:21:16.562+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-24T07:21:16.571+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=battery_lakehouse_dag, task_id=silver, execution_date=20251223T072022, start_date=20251224T072116, end_date=20251224T072116
+[2025-12-24T07:21:16.598+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-24T07:21:16.616+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

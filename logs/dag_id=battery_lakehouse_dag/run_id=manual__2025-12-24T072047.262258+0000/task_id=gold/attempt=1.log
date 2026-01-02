@@ -1,0 +1,22 @@
+[2025-12-24T07:21:23.686+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: battery_lakehouse_dag.gold manual__2025-12-24T07:20:47.262258+00:00 [queued]>
+[2025-12-24T07:21:23.692+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: battery_lakehouse_dag.gold manual__2025-12-24T07:20:47.262258+00:00 [queued]>
+[2025-12-24T07:21:23.693+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-12-24T07:21:23.702+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): gold> on 2025-12-24 07:20:47.262258+00:00
+[2025-12-24T07:21:23.706+0000] {standard_task_runner.py:57} INFO - Started process 367 to run task
+[2025-12-24T07:21:23.709+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'battery_lakehouse_dag', 'gold', 'manual__2025-12-24T07:20:47.262258+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/lakehouse_dag.py', '--cfg-path', '/tmp/tmp6d9k_sg2']
+[2025-12-24T07:21:23.711+0000] {standard_task_runner.py:85} INFO - Job 15: Subtask gold
+[2025-12-24T07:21:23.773+0000] {task_command.py:415} INFO - Running <TaskInstance: battery_lakehouse_dag.gold manual__2025-12-24T07:20:47.262258+00:00 [running]> on host 8c1d8ac5d2e8
+[2025-12-24T07:21:23.926+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='battery_lakehouse_dag' AIRFLOW_CTX_TASK_ID='gold' AIRFLOW_CTX_EXECUTION_DATE='2025-12-24T07:20:47.262258+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-24T07:20:47.262258+00:00'
+[2025-12-24T07:21:24.014+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/lakehouse_dag.py", line 112, in etl_gold_analysis
+    est_mins = int((theo_mins * 0.4) + (hist_mins * 0.6))
+ValueError: cannot convert float NaN to integer
+[2025-12-24T07:21:24.025+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=battery_lakehouse_dag, task_id=gold, execution_date=20251224T072047, start_date=20251224T072123, end_date=20251224T072124
+[2025-12-24T07:21:24.037+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 15 for task gold (cannot convert float NaN to integer; 367)
+[2025-12-24T07:21:24.083+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-12-24T07:21:24.104+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

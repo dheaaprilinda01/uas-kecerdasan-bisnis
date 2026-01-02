@@ -1,0 +1,13 @@
+[2025-12-24T08:38:08.212+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: battery_lakehouse_dag.elt_sp manual__2025-12-24T08:37:42+00:00 [queued]>
+[2025-12-24T08:38:08.224+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: battery_lakehouse_dag.elt_sp manual__2025-12-24T08:37:42+00:00 [queued]>
+[2025-12-24T08:38:08.341+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-12-24T08:38:08.400+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): elt_sp> on 2025-12-24 08:37:42+00:00
+[2025-12-24T08:38:08.449+0000] {standard_task_runner.py:57} INFO - Started process 1205 to run task
+[2025-12-24T08:38:08.454+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'battery_lakehouse_dag', 'elt_sp', 'manual__2025-12-24T08:37:42+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/lakehouse_dag.py', '--cfg-path', '/tmp/tmpnd_uvjh6']
+[2025-12-24T08:38:08.498+0000] {standard_task_runner.py:85} INFO - Job 38: Subtask elt_sp
+[2025-12-24T08:38:08.623+0000] {task_command.py:415} INFO - Running <TaskInstance: battery_lakehouse_dag.elt_sp manual__2025-12-24T08:37:42+00:00 [running]> on host cb1cc40b52c9
+[2025-12-24T08:38:08.840+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='battery_lakehouse_dag' AIRFLOW_CTX_TASK_ID='elt_sp' AIRFLOW_CTX_EXECUTION_DATE='2025-12-24T08:37:42+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-24T08:37:42+00:00'
+[2025-12-24T08:38:09.114+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-24T08:38:09.125+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=battery_lakehouse_dag, task_id=elt_sp, execution_date=20251224T083742, start_date=20251224T083808, end_date=20251224T083809
+[2025-12-24T08:38:09.150+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-24T08:38:09.267+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
